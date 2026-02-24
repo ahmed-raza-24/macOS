@@ -1,6 +1,6 @@
 import React from 'react'
-// import "./nav.scss"
-// import DateTime from './DateTime'
+import "./nav.scss"
+import DateTime from './DateTime'
 
 const Nav = () => {
     return (
@@ -11,7 +11,7 @@ const Nav = () => {
                 </div>
 
                 <div className="nav-item">
-                    <p>Ankur Prajapati</p>
+                    <p>Ahmed Raza</p>
                 </div>
 
                 <div className="nav-item">
@@ -30,7 +30,7 @@ const Nav = () => {
                     <img src="/navbar-icons/wifi.svg" alt="" />
                 </div>
                 <div className="nav-item">
-                    <DateTime />
+                    {/* <DateTime /> */}
                 </div>
 
             </div>
